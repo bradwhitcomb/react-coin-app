@@ -1,5 +1,6 @@
 import React from 'react';
 import { handleResponse } from '../../helpers';
+// import {renderChangePercent} from '../..helpers';
 import {API_URL} from '../../config';
 import Loading from '../common/Loading';
 import Table from './Table';
@@ -51,16 +52,7 @@ class List extends React.Component {
 
   }
 
-  renderChangePercent(percent){
-    if (percent > 0){
-      return <span className="percent-raised">{percent}% &uarr;</span>
-    } else if (percent < 0) {
-      return <span className="percent-fallen">{percent}% &uarr;</span>
-    } else {
-      return <span>{percent}</span>
-    }
-
-  }
+  
 
 handlePaginationClick(direction) {
 
@@ -95,7 +87,7 @@ handlePaginationClick(direction) {
       <div>
        <Table 
           currencies ={currencies}
-          renderChangePercent={this.renderChangePercent}
+          
         />
 
         <Pagination
