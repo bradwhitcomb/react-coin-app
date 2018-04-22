@@ -9,6 +9,7 @@ class Search extends React.Component {
     super();
 
     this.state = {
+      searchResults: [],
       searchQuery: '',
       loading: false,
     };
