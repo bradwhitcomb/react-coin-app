@@ -1,10 +1,10 @@
 Complete credit goes to Dimi Mikadze of Udilia.  I used all of his starter files and closely followed his tutorial.  Technologies include:  React, ES6, Node js.
 
+heroku link to application.   https://nameless-reef-75276.herokuapp.com/
+
 This applications tracks the universe of publically traded bitcoin.  It provides quotes, trading volume, size market, supply.
 
-
 The current app uses an API provided by Udilia.  In future revisions I plan to use a different API.
-
 
 Check out the link below to follow his tutorial.    
 
@@ -12,7 +12,6 @@ Check out the link below to follow his tutorial.
 
 Starter files for the <a href="https://udilia.com/courses/learn-react-by-building-a-web-app">Learn React by building a web app</a> Course.
 
-heroku link    https://nameless-reef-75276.herokuapp.com/
 
 
 
